@@ -1,0 +1,1 @@
+n = int (input('enter a number:'))m=ncnt = 0while m:    m_ = m % 10    if m_%2:        cnt += 1    m //= 10print (n, "has odd number:", cnt)

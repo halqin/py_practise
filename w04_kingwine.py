@@ -1,0 +1,1 @@
+# print  (ord('A'))m = int(input("Enter a number: "))n = mcnt = 0while m:    cnt = cnt + 1    m = m // 10print(n, 'has digial', cnt)

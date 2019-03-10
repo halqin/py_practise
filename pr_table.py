@@ -1,0 +1,1 @@
+m = int(input('row'))c = int(input('col'))n = 1while n<=m:    nn  = 1    while nn <= c:        print (n ** nn ,end= '\t')        nn += 1    print()    n +=1
