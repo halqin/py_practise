@@ -35,7 +35,7 @@ def frequencySequence(list_):
 			value += 1
 		count += 1
 
-	freq.append(count)
+	freqSeq.append(count)
 	return freqSeq	
 			
 
