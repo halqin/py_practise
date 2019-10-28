@@ -35,10 +35,10 @@ def weave(seq1, seq2):
 	new_list = []
 	# min_len = max(len(seq2), len(seq1))
 	if len2 < len1:
-		while len2 < len1:
+		while len(seq2) < len(seq1):
 			seq2.extend(seq2)
 	elif len1 < len2: 
-		while  len1 < len2:
+		while  len(seq1) < len(seq2):
 			seq1.extend(seq1)
 	zip_list = list(zip(seq1,seq2))
 	for i in zip_list:
