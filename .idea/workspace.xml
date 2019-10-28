@@ -65,49 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest increasing">
-    <configuration name="complementary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complementary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="isbn_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Doctest merge (1)">
     <configuration name="w04_kingwine" type="PythonConfigurationType" factoryName="Python">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,24 +88,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest frequencySequence" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complementary.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="frequencySequence" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Doctest increasing" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +106,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest lift" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest merge (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,9 +115,63 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complementary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipper_extend.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="lift" />
+      <option name="METHOD_NAME" value="merge" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest merge" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipper.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="merge" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest zipper (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipper_extend.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="zipper" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest zipper" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipper.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="zipper" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
@@ -186,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python.isbn_list" />
       <item itemvalue="Python tests.Doctest increasing" />
-      <item itemvalue="Python tests.Doctest frequencySequence" />
-      <item itemvalue="Python tests.Doctest lift" />
-      <item itemvalue="Python.complementary" />
+      <item itemvalue="Python tests.Doctest merge" />
+      <item itemvalue="Python tests.Doctest zipper" />
+      <item itemvalue="Python tests.Doctest zipper (1)" />
+      <item itemvalue="Python tests.Doctest merge (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctest merge (1)" />
+        <item itemvalue="Python tests.Doctest zipper (1)" />
+        <item itemvalue="Python tests.Doctest zipper" />
+        <item itemvalue="Python tests.Doctest merge" />
         <item itemvalue="Python tests.Doctest increasing" />
-        <item itemvalue="Python.complementary" />
-        <item itemvalue="Python tests.Doctest lift" />
-        <item itemvalue="Python tests.Doctest frequencySequence" />
-        <item itemvalue="Python.isbn_list" />
       </list>
     </recent_temporary>
   </component>
