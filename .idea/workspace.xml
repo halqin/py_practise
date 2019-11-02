@@ -186,11 +186,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
+      <item itemvalue="Python.triangle" />
+      <item itemvalue="Python.pozo" />
       <item itemvalue="Python tests.Doctest period" />
       <item itemvalue="Python tests.Doctest triangle" />
-      <item itemvalue="Python.triangle" />
       <item itemvalue="Python tests.Doctest crossSection" />
-      <item itemvalue="Python.pozo" />
     </list>
     <recent_temporary>
       <list>
