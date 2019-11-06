@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isbn_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/isbn_func.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in isbn_func">
+  <component name="RunManager" selected="Python tests.Doctest inning">
     <configuration name="w04_kingwine" type="PythonConfigurationType" factoryName="Python">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest areISBN" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest hit" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,16 +97,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="areISBN" />
+      <option name="METHOD_NAME" value="hit" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest isISBN13 (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest inning" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,16 +115,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="isISBN13" />
+      <option name="METHOD_NAME" value="inning" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest isISBN13" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in baseball (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,25 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn13.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="isISBN13" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in isbn13 (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -161,7 +142,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in isbn_func" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in baseball (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +151,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in baseball" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -181,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest isISBN13" />
-      <item itemvalue="Python tests.Doctests in isbn13 (1)" />
-      <item itemvalue="Python tests.Doctest isISBN13 (1)" />
-      <item itemvalue="Python tests.Doctests in isbn_func" />
-      <item itemvalue="Python tests.Doctest areISBN" />
+      <item itemvalue="Python tests.Doctest hit" />
+      <item itemvalue="Python tests.Doctests in baseball" />
+      <item itemvalue="Python tests.Doctest inning" />
+      <item itemvalue="Python tests.Doctests in baseball (1)" />
+      <item itemvalue="Python tests.Doctests in baseball (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in isbn_func" />
-        <item itemvalue="Python tests.Doctest areISBN" />
-        <item itemvalue="Python tests.Doctest isISBN13 (1)" />
-        <item itemvalue="Python tests.Doctest isISBN13" />
-        <item itemvalue="Python tests.Doctests in isbn13 (1)" />
+        <item itemvalue="Python tests.Doctest inning" />
+        <item itemvalue="Python tests.Doctests in baseball (2)" />
+        <item itemvalue="Python tests.Doctests in baseball (1)" />
+        <item itemvalue="Python tests.Doctests in baseball" />
+        <item itemvalue="Python tests.Doctest hit" />
       </list>
     </recent_temporary>
   </component>
