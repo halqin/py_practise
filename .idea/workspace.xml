@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest inning">
+  <component name="RunManager" selected="Python tests.Doctests in rollover (4)">
     <configuration name="w04_kingwine" type="PythonConfigurationType" factoryName="Python">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest hit" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in rollover (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,43 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="hit" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctest inning" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="inning" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in baseball (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rollover.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -142,7 +106,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in baseball (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in rollover (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rollover.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -160,7 +124,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in baseball" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in rollover (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +133,43 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baseball.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rollover.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in rollover (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rollover.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in rollover" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rollover.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -180,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest hit" />
-      <item itemvalue="Python tests.Doctests in baseball" />
-      <item itemvalue="Python tests.Doctest inning" />
-      <item itemvalue="Python tests.Doctests in baseball (1)" />
-      <item itemvalue="Python tests.Doctests in baseball (2)" />
+      <item itemvalue="Python tests.Doctests in rollover" />
+      <item itemvalue="Python tests.Doctests in rollover (1)" />
+      <item itemvalue="Python tests.Doctests in rollover (2)" />
+      <item itemvalue="Python tests.Doctests in rollover (3)" />
+      <item itemvalue="Python tests.Doctests in rollover (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctest inning" />
-        <item itemvalue="Python tests.Doctests in baseball (2)" />
-        <item itemvalue="Python tests.Doctests in baseball (1)" />
-        <item itemvalue="Python tests.Doctests in baseball" />
-        <item itemvalue="Python tests.Doctest hit" />
+        <item itemvalue="Python tests.Doctests in rollover (4)" />
+        <item itemvalue="Python tests.Doctests in rollover (3)" />
+        <item itemvalue="Python tests.Doctests in rollover" />
+        <item itemvalue="Python tests.Doctests in rollover (2)" />
+        <item itemvalue="Python tests.Doctests in rollover (1)" />
       </list>
     </recent_temporary>
   </component>
