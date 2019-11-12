@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool.py" beforeDir="false" afterPath="$PROJECT_DIR$/cool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest radar2">
+  <component name="RunManager" selected="Python tests.Doctest select">
     <configuration name="w04_kingwine" type="PythonConfigurationType" factoryName="Python">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest numismatist" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest arrange" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,16 +97,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errordetect.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="numismatist" />
+      <option name="METHOD_NAME" value="arrange" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest radar2" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest draw" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,16 +115,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errordetect.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="radar2" />
+      <option name="METHOD_NAME" value="draw" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest radarRepeater" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest extend" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,16 +133,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errordetect.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="radarRepeater" />
+      <option name="METHOD_NAME" value="extend" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest serialNumber" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest select" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,16 +151,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errordetect.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="serialNumber" />
+      <option name="METHOD_NAME" value="select" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in cool" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in errordetect" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/errordetect.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -181,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest serialNumber" />
-      <item itemvalue="Python tests.Doctests in cool" />
-      <item itemvalue="Python tests.Doctest numismatist" />
-      <item itemvalue="Python tests.Doctest radarRepeater" />
-      <item itemvalue="Python tests.Doctest radar2" />
+      <item itemvalue="Python tests.Doctest draw" />
+      <item itemvalue="Python tests.Doctest arrange" />
+      <item itemvalue="Python tests.Doctest extend" />
+      <item itemvalue="Python tests.Doctests in errordetect" />
+      <item itemvalue="Python tests.Doctest select" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctest radar2" />
-        <item itemvalue="Python tests.Doctests in cool" />
-        <item itemvalue="Python tests.Doctest radarRepeater" />
-        <item itemvalue="Python tests.Doctest numismatist" />
-        <item itemvalue="Python tests.Doctest serialNumber" />
+        <item itemvalue="Python tests.Doctest select" />
+        <item itemvalue="Python tests.Doctests in errordetect" />
+        <item itemvalue="Python tests.Doctest extend" />
+        <item itemvalue="Python tests.Doctest arrange" />
+        <item itemvalue="Python tests.Doctest draw" />
       </list>
     </recent_temporary>
   </component>
