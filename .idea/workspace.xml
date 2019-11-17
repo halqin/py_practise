@@ -65,8 +65,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest sexChange">
-    <configuration name="runs10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bag10">
+    <configuration name="bag10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runs10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bag10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest group" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest fill" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,16 +118,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runs10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bag10.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="group" />
+      <option name="METHOD_NAME" value="fill" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest sexChange" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest juggle" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,16 +136,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gender.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/catch10.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="sexChange" />
+      <option name="METHOD_NAME" value="juggle" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest translate" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest juggler" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,16 +154,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gender.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/catch10.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="translate" />
+      <option name="METHOD_NAME" value="juggler" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest undoSexChange" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest missing_parameter" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,9 +172,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gender.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/catch10.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="undoSexChange" />
+      <option name="METHOD_NAME" value="missing_parameter" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
@@ -183,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest group" />
-      <item itemvalue="Python.runs10" />
-      <item itemvalue="Python tests.Doctest translate" />
-      <item itemvalue="Python tests.Doctest sexChange" />
-      <item itemvalue="Python tests.Doctest undoSexChange" />
+      <item itemvalue="Python tests.Doctest missing_parameter" />
+      <item itemvalue="Python tests.Doctest juggle" />
+      <item itemvalue="Python tests.Doctest juggler" />
+      <item itemvalue="Python tests.Doctest fill" />
+      <item itemvalue="Python.bag10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctest sexChange" />
-        <item itemvalue="Python tests.Doctest translate" />
-        <item itemvalue="Python tests.Doctest undoSexChange" />
-        <item itemvalue="Python.runs10" />
-        <item itemvalue="Python tests.Doctest group" />
+        <item itemvalue="Python.bag10" />
+        <item itemvalue="Python tests.Doctest fill" />
+        <item itemvalue="Python tests.Doctest juggle" />
+        <item itemvalue="Python tests.Doctest juggler" />
+        <item itemvalue="Python tests.Doctest missing_parameter" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +257,7 @@
         <watch expression="gender" language="Python" />
         <watch expression="word" language="Python" />
         <watch expression="translation" language="Python" />
+        <watch expression="B" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
