@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bag10">
+  <component name="RunManager" selected="Python.isbn11">
     <configuration name="bag10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bag10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="isbn11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,39 +184,21 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest missing_parameter" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/catch10.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="missing_parameter" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest missing_parameter" />
       <item itemvalue="Python tests.Doctest juggle" />
       <item itemvalue="Python tests.Doctest juggler" />
       <item itemvalue="Python tests.Doctest fill" />
       <item itemvalue="Python.bag10" />
+      <item itemvalue="Python.isbn11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isbn11" />
         <item itemvalue="Python.bag10" />
         <item itemvalue="Python tests.Doctest fill" />
         <item itemvalue="Python tests.Doctest juggle" />
         <item itemvalue="Python tests.Doctest juggler" />
-        <item itemvalue="Python tests.Doctest missing_parameter" />
       </list>
     </recent_temporary>
   </component>
