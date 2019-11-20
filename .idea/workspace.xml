@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in plutokiller (3)">
+  <component name="RunManager" selected="Python tests.Doctest coordinates (1)">
     <configuration name="w04_kingwine" type="PythonConfigurationType" factoryName="Python">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest coordinates" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest coordinates (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plutokiller.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/awol.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="coordinates" />
       <option name="FOLDER_NAME" value="" />
@@ -180,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest coordinates" />
       <item itemvalue="Python tests.Doctests in plutokiller" />
       <item itemvalue="Python tests.Doctests in plutokiller (1)" />
       <item itemvalue="Python tests.Doctests in plutokiller (2)" />
       <item itemvalue="Python tests.Doctests in plutokiller (3)" />
+      <item itemvalue="Python tests.Doctest coordinates (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctest coordinates (1)" />
         <item itemvalue="Python tests.Doctests in plutokiller (3)" />
         <item itemvalue="Python tests.Doctests in plutokiller (2)" />
         <item itemvalue="Python tests.Doctests in plutokiller (1)" />
         <item itemvalue="Python tests.Doctests in plutokiller" />
-        <item itemvalue="Python tests.Doctest coordinates" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +264,9 @@
         <watch expression="word" language="Python" />
         <watch expression="ls" language="Python" />
         <watch expression="bag" language="Python" />
+        <watch expression="num" language="Python" />
+        <watch expression="router" language="Python" />
+        <watch expression="coords_" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
