@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sestina.py" beforeDir="false" afterPath="$PROJECT_DIR$/sestina.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isbn12">
+  <component name="RunManager" selected="Python tests.Doctests in screabble">
     <configuration name="isbn12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +145,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in plutokiller (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in screabble" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plutokiller.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screabble.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -184,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctests in plutokiller (3)" />
       <item itemvalue="Python tests.Doctest coordinates (1)" />
       <item itemvalue="Python tests.Doctest endword" />
       <item itemvalue="Python tests.Doctests in sestina" />
       <item itemvalue="Python.isbn12" />
+      <item itemvalue="Python tests.Doctests in screabble" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in screabble" />
         <item itemvalue="Python.isbn12" />
         <item itemvalue="Python tests.Doctests in sestina" />
         <item itemvalue="Python tests.Doctest endword" />
         <item itemvalue="Python tests.Doctest coordinates (1)" />
-        <item itemvalue="Python tests.Doctests in plutokiller (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +252,11 @@
           <url>file://$PROJECT_DIR$/bag10.py</url>
           <line>16</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/screabble.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
