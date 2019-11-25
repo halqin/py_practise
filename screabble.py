@@ -47,7 +47,7 @@ class Bag(object):
 	def __init__(self, seq):	
 		self.seq = seq
 		self.content = self.content()
-		self.count = self.countf()
+		#self.count = self.countf()
 
 	def content(self):
 		bagDict=dict()
