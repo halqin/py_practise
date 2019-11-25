@@ -24,13 +24,30 @@ Bag('AAAAAAAAABBCCDDDDEEEEEEEEEEEEFFGGGHHIIIIIIIIIJKLLLLMMNNNNNNOOOOOOOOPPQRRRRR
 8: A
 9: I
 10: E
+>>> bag
+Bag('AAAAAAAABCDDDDEEEEEEEEEEFFGGGHHIIIIIIIIIJKLLLLMNNNNNOOOOOOOPPQRRRRRSSSTTTTTUUUUVVWWYZ_')
+>>> bag.remove('XXX')
+Traceback (most recent call last):
+AssertionError: not all letters are in the bag
+>>> print(bag)
+1: BCJKMQYZ_
+2: FHPVW
+3: GS
+4: DLU
+5: NRT
+7: O
+8: A
+9: I
+10: E
+>>> bag
+Bag('AAAAAAAABCDDDDEEEEEEEEEEFFGGGHHIIIIIIIIIJKLLLLMNNNNNOOOOOOOPPQRRRRRSSSTTTTTUUUUVVWWYZ_')
 '''
 class Bag(object):
 	"""docstring for Bag"""
 	def __init__(self, seq):	
 		self.seq = seq
 		self.content = self.content()
-		self.count = self.count()
+		self.count = self.countf()
 
 	def content(self):
 		bagDict=dict()
@@ -43,14 +60,13 @@ class Bag(object):
 
 	def __str__(self):
 		#bag = self.content
-		count_ = self.count
+		count_ = self.countf()
 		return '\n'.join(
 			'{}: {}'.format(
 				i, ''.join(sorted(count_[i])) ) for i in sorted(count_)
 						)
 
-
-	def count(self):
+	def countf(self):
 		bagDict = dict()
 		for letter,num in self.content.items():
 			if bagDict.get(num) == None:
@@ -61,7 +77,8 @@ class Bag(object):
 
 	def __repr__(self):
 		resultlist = []
-		for num, letterList in self.count.items():
+		count_ = self.countf()
+		for num, letterList in count_.items():
 			for letter in letterList:
 				resultlist.extend([letter]*num)
 		return "Bag('{}')".format(''.join(sorted(resultlist)))

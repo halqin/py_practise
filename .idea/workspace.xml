@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/screabble.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,8 +256,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/screabble.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="23" />
+          <line>87</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -280,6 +281,7 @@
         <watch expression="seq1" language="Python" />
         <watch expression="seq2" language="Python" />
         <watch expression="seq1" language="Python" />
+        <watch expression="bag" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
