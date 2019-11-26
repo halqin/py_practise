@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISBN_OOP.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_object .key" beforeDir="false" afterPath="$PROJECT_DIR$/python_object .key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/screabble.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in gehei">
+  <component name="RunManager" selected="Python tests.Doctests in lemmings">
+    <configuration name="clock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="isbn12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,24 +130,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest endword" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sestina.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="endword" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Doctests in gehei" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +140,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gehei.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in lemmings" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lemmings.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -166,39 +184,21 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in sestina" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sestina.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python tests.Doctest endword" />
-      <item itemvalue="Python tests.Doctests in sestina" />
       <item itemvalue="Python.isbn12" />
       <item itemvalue="Python tests.Doctests in screabble" />
       <item itemvalue="Python tests.Doctests in gehei" />
+      <item itemvalue="Python.clock" />
+      <item itemvalue="Python tests.Doctests in lemmings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in lemmings" />
+        <item itemvalue="Python.clock" />
         <item itemvalue="Python tests.Doctests in gehei" />
         <item itemvalue="Python tests.Doctests in screabble" />
         <item itemvalue="Python.isbn12" />
-        <item itemvalue="Python tests.Doctests in sestina" />
-        <item itemvalue="Python tests.Doctest endword" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +260,11 @@
           <url>file://$PROJECT_DIR$/screabble.py</url>
           <line>88</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gehei.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
