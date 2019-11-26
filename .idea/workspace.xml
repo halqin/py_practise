@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eea5b482-bee4-427c-8c8a-d5bedf0ee85d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemmings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lemmings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,11 +262,6 @@
           <line>88</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gehei.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -289,6 +285,8 @@
         <watch expression="seq2" language="Python" />
         <watch expression="seq1" language="Python" />
         <watch expression="bag" language="Python" />
+        <watch expression="rownum" language="Python" />
+        <watch expression="rowstr" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
