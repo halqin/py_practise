@@ -39,7 +39,6 @@
 ###########    ########         #
 ###########  ##############     #
 #################################
-
 >>> lemming.step()
 (2, 8, '>')
 >>> print(lemming)
@@ -93,61 +92,45 @@ class Lemming(object):
     def __init__(self, text, col, direction):
         #super(Lemming, self).__init__()
         #self.text = text
-        self.col = col
-        self.direction = direction
+        self.row, self.col =0, col
+        self._direction = self.direction(direction)
         self.space = [line.rstrip('\n') for line in open(text, 'r')]
-        self.row = self.ground()
+        self.ground()
 
     def position(self):
-        return self.row, self.col, self.direction
+        return self.row, self.col, self.trans(self._direction)
+
+    def direction(self,dir):
+        return 1 if dir=='>' else -1
+
+    def trans(self, num):
+        return '>' if num ==1 else '<'
 
     def ground(self):
-        for rownum,i in enumerate(self.space[1:-1],1):
-            if i[self.col] != " ":
-                return rownum-1
+        while self.space[self.row+1][self.col] != "#": #until hit the ground
+            self.row +=1
 
     def __str__(self):
-        rowstr = self.space[self.row]
-        newrow = ''.join((rowstr[:self.col],self.direction,rowstr[self.col+1:]))
-        copy_space = self.space.copy()
-        copy_space[self.row] = newrow
-        return '\n'.join(i for i in copy_space)
+        newrow = self.space[self.row][:self.col]+self.trans(self._direction)+self.space[self.row][self.col+1:]
+        return '\n'.join(
+            self.space[i] if i != self.row else newrow
+            for i in range(len(self.space))
+            )
 
     def step(self):
-        if self.direction == '>': #to right
-            if self.space[self.row][self.col+1] == "#": #may have wall
-                if self.space[self.row-1][self.col+1] =="#": #have big wall
-                    self.direction = '<'
-                else:
-                    self.col +=1 #small wall,let's fo
-                    self.row -=1
-            elif self.space[self.row+1][self.col+1] == "#": #having ground
-                self.col +=1
-            elif self.space[self.row+2][self.col+1] == "#": #no wall and no ground , maybe down step
-                self.row +=1
-                self.col +=1
-            else: #real cliff!
-                self.row +=5
-                self.col +=1
-        elif self.direction == '<': #to left
-            if self.space[self.row][self.col-1] == "#": #may have wall
-                if self.space[self.row-1][self.col-1] =="#": #have big wall
-                    self.direction = '>' #changing direction
-                else:
-                    self.col -=1 #small wall, let's fo
-                    self.row -=1
-            elif self.space[self.row+1][self.col-1] == "#": #having ground
-                self.col -=1 #move forward left
-            elif self.space[self.row+2][self.col-1] == "#": #maybe down step
-                self.col -=1
-                self.row +=1
-            else: #real cliff
-                self.row +=5  #if cliff, walls minus row
-                self.col +=1
+        if self.space[self.row][self.col+self._direction] == " ": #empty or cliff?
+            self.col += self._direction
+            self.ground() # if cliff, then change row until ground
+        elif self.space[self.row-1][self.col+self._direction] == " ": #small step?
+            self.col += self._direction  #it is small step
+            self.row -=1
+        else: #no wall
+            self._direction = -(self._direction)
         return self.position()
-        #elif self.direction == '<': #to left
+    #     #elif self.direction == '<': #to left
     def steps(self, num_step):
-        return [self.step() for _ in range(num_step)]
+         return [self.step() for _ in range(num_step)]
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()

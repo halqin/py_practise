@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in lemmings">
+  <component name="RunManager" selected="Python tests.Doctests in lemmings2">
     <configuration name="clock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,27 +80,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="isbn12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_ex" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isbn12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,6 +146,24 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in lemmings2" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="py_ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lemmings2.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Doctests in screabble" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="py_ex" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,19 +184,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.w04_kingwine" />
-      <item itemvalue="Python.isbn12" />
       <item itemvalue="Python tests.Doctests in screabble" />
       <item itemvalue="Python tests.Doctests in gehei" />
       <item itemvalue="Python.clock" />
       <item itemvalue="Python tests.Doctests in lemmings" />
+      <item itemvalue="Python tests.Doctests in lemmings2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in lemmings2" />
         <item itemvalue="Python tests.Doctests in lemmings" />
         <item itemvalue="Python.clock" />
         <item itemvalue="Python tests.Doctests in gehei" />
         <item itemvalue="Python tests.Doctests in screabble" />
-        <item itemvalue="Python.isbn12" />
       </list>
     </recent_temporary>
   </component>
@@ -287,6 +284,9 @@
         <watch expression="bag" language="Python" />
         <watch expression="rownum" language="Python" />
         <watch expression="rowstr" language="Python" />
+        <watch expression="self.row" language="Python" />
+        <watch expression="self.col" language="Python" />
+        <watch expression="self.direction" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
         <watch expression="i" language="Python" />
