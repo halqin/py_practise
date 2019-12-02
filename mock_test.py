@@ -10,6 +10,7 @@ class add_mul(object):
 		self.b = b
 
 	def f1(self):
+		self.mul(self.b, self.a)
 		return self.c+self.mul(self.a, self.b)
 
 	def mul(self, a, b):
@@ -20,10 +21,12 @@ class add_mul(object):
 class TestAddul(unittest.TestCase):
 	"""docstring for TestAddul"""
 	def test_add_mul(self):
-		cal = add_mul(5, 100, 4)
-		cal.mul = MagicMock(return_value=15)
+		cal_mul = MagicMock()
+		# cal = add_mul(5, 100, 4)
+		cal_mul.mul.return_value=15
+		cal = add_mul(cal_mul)
 		self.assertEqual(cal.f1(), 19)
-
+		# cal.mul.assert_called_with(5, 100)
 
 if __name__ == "__main__":
 	unittest.main()
