@@ -18,8 +18,11 @@
 >>> period((1, 2, 1, 2, 1, 1))
 6
 '''
+
+
 def next(seq):
 	return tuple(abs(seq[i]-seq[(i+1)%len(seq)]) for i in range(len(seq)))	
+
 
 def ducci(seq):
 	seq=tuple(seq)
@@ -30,10 +33,10 @@ def ducci(seq):
 	result_list +=(seq,)
 	return result_list
 
+
 def period(seq):
 	ducci_res=ducci(seq)
 	return 0 if len(ducci_res) == len(set(ducci_res)) else len(ducci_res) - ducci_res.index(ducci_res[-1])-1
-
 
 
 if __name__=='__main__':
